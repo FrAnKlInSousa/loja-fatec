@@ -8,3 +8,4 @@ Objetivo de criar um site para venda de algum produto.
 - Typescript
 - HTML
 - CSS
+- Node.js
