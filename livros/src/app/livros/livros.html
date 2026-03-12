@@ -1,1 +1,10 @@
-<p>livros works!</p>
+<div>
+  @for (livro of livros; track livro) {
+    <div class="book">
+      <div>
+        <img src="capas/{{ livro.titulo }}.jpg" alt="capa {{ livro.titulo }}" width="80px" />
+      </div>
+      <div>{{ livro.titulo }} - {{ livro.autor }}</div>
+    </div>
+  }
+</div>
