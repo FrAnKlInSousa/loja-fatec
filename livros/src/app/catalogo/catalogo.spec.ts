@@ -19,4 +19,13 @@ describe('Catalogo', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  
+  it('should render all books', () => {
+    fixture.detectChanges();
+
+    const compiled = fixture.nativeElement as HTMLElement;
+    const livrosDOM = compiled.querySelectorAll('[data-test="livros"]');
+    expect(livrosDOM.length).toBe(component.livros.length);
+
+  });
 });
