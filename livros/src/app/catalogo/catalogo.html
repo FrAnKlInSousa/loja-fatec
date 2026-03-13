@@ -1,7 +1,7 @@
 <div class="container">
   @for (livro of livros; track livro) {
     <div class="container-livro">
-      <img class="img-capa" src="capas/{{ livro.titulo }}.jpg" alt="capa {{ livro.titulo }}" />
+      <img class="img-capa" src="capas/{{ livro.capa }}.jpg" alt="capa {{ livro.capa }}" />
       <div class="titulo-livro">{{ livro.titulo }}</div>
     </div>
   }
