@@ -1,29 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 * {
   margin: 0;
-}
-
-.container {
-  display: flex;
-  background-color: #5dd3b6;
-  justify-content: space-around;
-}
-
-.container-livro {
-  background-color: #efe1b5;
-  border: 1px solid rgb(77, 73, 73);
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.img-capa {
-  width: 120px;
-  height: 170px;
-}
-
-.titulo-livro {
-  width: 130px;
-  text-align: center;
+  background-color: #706d54;
+  box-sizing: border-box;
 }
