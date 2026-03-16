@@ -3,4 +3,5 @@ export class Livro {
   quantidadePaginas = 0;
   autor = '';
   capa = '';
+  preco = '';
 }
