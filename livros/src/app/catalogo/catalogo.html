@@ -1,8 +1,9 @@
 <div class="container">
   @for (livro of livros; track livro) {
-    <div class="container-livro" data-test="livros">
+    <div class="container-livros" data-test="livros">
       <img class="img-capa" src="capas/{{ livro.capa }}.jpg" alt="capa {{ livro.capa }}" />
-      <div class="titulo-livro">{{ livro.titulo }}</div>
+      <div class="titulo-livro detalhe-livro">{{ livro.titulo }}</div>
+      <div class="preco-livro detalhe-livro">R${{ livro.preco }}</div>
     </div>
   }
 </div>
